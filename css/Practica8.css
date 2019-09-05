@@ -1,0 +1,102 @@
+header {
+    background: #FFFF99; /* es un atajo para definir los valores individuales del fondo en una única regla CSS*/
+    height: 150px; /* especifica la altura del area de contenido de un elemento */
+}
+
+section {
+    width: 70%; /* especifica la anchura del area de contenido de un elemento */
+    float: left; /* especifica si un elemento debe salir del flujo normal y aparecer a la izquierda o a la derecha de su contenedor */
+    background: azure;
+    overflow: auto; /*  especifica: si recortar contenido, dibujar barras de desplazamiento o mostrar el contenido excedente en un elemento a nivel de bloque */
+    padding-bottom: 30px; /* establece el espacio de relleno requerido en la parte inferior del elemento */
+    padding-top: 30px; /* establece el espacio de relleno requerido en la parte superior del elemento */
+    margin: 10px auto 10px auto; /* establece el margen para los cuatro lados */
+}
+
+aside {
+    float: right;
+    background: azure;
+    width: 20%;
+    margin: 10px auto 10px auto;
+    padding: 10px 10px 10px 10px;
+}
+
+footer {
+    position: relative; /* especifica cómo un elemento es posicionado en el documento */
+    margin-top: -50px; /* establece el área de margen en la parte superior de un elemento */
+    height: 40px;
+    padding: 3px 0px;
+    clear: both; /* especifica si un elemento puede estar al lado de elementos flotantes que lo preceden o si debe ser movido (cleared) debajo de ellos */
+    background: azure;
+    text-align: center; /* establece la alineación horizontal de un elemento de bloque o cuadro de celda de tabla*/
+    color: azure; /* selecciona el valor de color de primer plano del contenido de elemento de texto y decoraciones de texto */
+}
+
+figure {
+    display: table; /* especifica el tipo de cuadro de representación utilizado para un elemento */
+    margin: 0 auto;
+}
+
+body {
+    font-family: "Lato", sans-serif; /*  define una lista de fuentes o familias de fuentes, con un orden de prioridad, para utilizar en un elemento seleccionado */
+    font-weight: normal; /* especifica el peso o grueso de la letra */
+    background: #aaaaaa;
+}
+
+h1 , h2, h3{
+    font-weight: bold;
+    text-align: left;
+}
+
+figcaption {
+    display: flex;
+    justify-content: center; /* define cómo el navegador distribuye el espacio entre y alrededor de los items flex, a lo largo del eje principal de su contenedor */
+}
+
+p {
+    display: flex;
+}
+
+div {
+    width: auto;
+    height: 10%;
+}
+
+ul {
+    display: grid;
+    justify-content: left;
+    list-style-type: none; /* especifica la apariencia del listado */
+}
+
+.container_img {
+    width: 100%;
+    height: auto;
+}
+
+.derecha {
+    float: right;
+
+}
+
+.izquierda {
+    float: left;
+}
+
+.redondo {
+    border-radius: 30px; /* permite definir qué tan redondeadas serán las esquinas */
+}
+
+.expandir {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+ul:hover{
+    background-color: aqua;
+}
+
+h1:hover, h2:hover, h3:hover, h4:hover{
+    background-color: red;
+}
+
